@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
+/* Phần đầu menu */
+.row p {
+    margin: auto;
+}
+
+.row p a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+.row p a:hover {
+    color: #C0AA83;
+
+}
+
+
+/* Phần nav */
+nav .row form input {
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(189, 185, 185);
+
+}
+
+nav .row form button {
+    width: 80px;
+    height: 40px;
+    margin-left: -2px;
+    background: #C0AA83;
+    border-color: #C0AA83;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 2px #C0AA83;
+}
+
+nav .icon i {
+    color: black;
+    font-size: 23px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+nav .icon i:hover {
+    color: #C0AA83;
+}
+
+
+
+
+/* Phần nav-bar */
+.nav-bar p {
+    border: 1px solid #C0AA83;
+    background: #C0AA83;
+    color: white;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 3px;
+    font-size: 19px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 19px;
+    color: black;
+    text-align: center;
+}
+
+.nav-bar ul li a:hover {
+    color: #C0AA83;
+}
+
+.nav-bar i {
+    color: #C0AA83;
+    line-height: 50px;
+
+}
+
+.nav-bar a {
+    color: black;
+    font-size: 19px;
+    text-decoration: none !important;
+
+}
+
+.nav-bar a:hover {
+    text-decoration: none;
+    color: #C0AA83;
+
+}
+
+.nav-bar h6 {
+    float: right;
+    margin-right: -280px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+/* Phần aside */
+#menu ul {
+    background: #FAF8F5;
+    width: 240px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu ul li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid rgb(217, 215, 215);
+    padding: 0 1em;
+    position: relative;
+    border-radius: 3px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+
+}
+
+#menu ul li a:hover {
+    color: #C0AA83;
+}
+
+#menu .sub-menu1 {
+    position: absolute;
+    left: 240px;
+    top: 0;
+    display: none;
+    z-index: 1;
+    width: 150px;
+}
+
+#menu ul li:hover .sub-menu1 {
+    display: block;
+
+}
+
+/* Aside  */
+aside .row .contact {
+    text-align: center;
+}
+
+aside .row .contact h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+aside .row .contact .form-cotrol {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+aside .row .contact .email form input {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+
+}
+
+aside .row .contact .attachment form input {
+    width: 320px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+
+}
+
+aside .row .contact .attachment form button {
+    width: 80px;
+    height: 40px;
+    margin-left: -2px;
+    background: #C0AA83;
+    border-color: #C0AA83;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 2px #C0AA83;
+}
+aside .row .contact .an button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    background: #C0AA83;
+    border-color: #C0AA83;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 490px;
+}
+
+
+
+
+
+
+
+/* Phần get your latest update  */
+.update {
+    margin: 20px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.update img {
+    width: 100%;
+}
+
+.update h3 {
+    position: absolute;
+    top: 20px;
+    left: 590px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.update p {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.update form {
+    position: absolute;
+    top: 140px;
+    left: 515px;
+}
+
+.update form input {
+    width: 460px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(189, 185, 185);
+
+}
+
+.update form button {
+    width: 80px;
+    height: 50px;
+    margin-left: -2px;
+    background: #C0AA83;
+    border-color: #C0AA83;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 2px #C0AA83;
+}
+
+.update #check {
+    position: absolute;
+    top: 210px;
+    left: 560px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Phần footer  */
+footer .row .footer1 h4 {
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer .row .footer1 h4 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .row .footer1 p {
+    margin-bottom: 15px;
+
+}
+
+footer .row .footer2 h4 {
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer .row .footer2 h4 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .row .footer2 p {
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+footer .row .footer2 p:hover {
+    color: #C0AA83;
+}
+
+footer .row .footer2 p i {
+    margin-right: 10px;
+}
+
+
+footer .row .footer3 h4 {
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer .row .footer3 h4 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .row .footer3 p {
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+footer .row .footer3 p:hover {
+    color: #C0AA83;
+}
+
+footer .row .footer3 p i {
+    margin-right: 10px;
+}
+
+
+
+footer .row .footer4 h4 {
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer .row .footer4 h4 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .row .footer4 p {
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+footer .row .footer4 p:hover {
+    color: #C0AA83;
+}
+
+footer .row .footer4 p i {
+    margin-right: 10px;
+}
+
+.row .footer5 button {
+    border-radius: 100%;
+    padding: 12px;
+    background: #E5E5E5;
+    border-color: #E5E5E5;
+    margin-right: 20px;
+
+}
+
+.row .footer5 button:hover {
+    background: #C0AA83;
+    border-color: #C0AA83;
+    color: white;
+}
+
+.row .footer6 img {
+    margin-right: 10px;
+}
